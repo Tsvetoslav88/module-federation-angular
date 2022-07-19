@@ -18,11 +18,15 @@ Micro-Frontends are not the framework or library. This is the methodology where 
 This tutorial shows how to use Webpack Module Federation together with the Angular CLI and the @angular-architects/module-federation plugin. The goal is to make a shell capable of loading a separately compiled and deployed microfrontend
 
 ### Build and run
+- Build of the project - `npm install`
+- Run the project - `npm run start:all`
 
+### Access the Micro frontends
+In order to access the *Host* that manages all *remotes*, use following link - http://localhost:5000/
 
-### Reference
-How To Implement Micro-Frontend Architecture With Angular
-Angular Microfrontend Guide
-Dynamic Module Federation with Angular
-Getting Started With Micro FrontEnds and Angular
-Getting Started with Webpack Module Federation and Angular
+## Reference
+- [How To Implement Micro-Frontend Architecture With Angular](https://medium.com/bb-tutorials-and-thoughts/how-to-implement-micro-frontend-architecture-with-angular-e6828a0a049c)
+- [Angular Microfrontend Guide](https://levelup.gitconnected.com/your-first-angular-microfrontend-58950768a465?gi=9ff3a50b37e3)
+- [Dynamic Module Federation with Angular](https://www.angulararchitects.io/aktuelles/dynamic-module-federation-with-angular/)
+- [Getting Started With Micro FrontEnds and Angular](https://blog.briebug.com/blog/micro-frontends-angular)
+- [Getting Started with Webpack Module Federation and Angular](https://github.com/angular-architects/module-federation-plugin/blob/main/libs/mf/tutorial/tutorial.md)
