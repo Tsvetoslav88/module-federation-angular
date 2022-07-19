@@ -8,10 +8,10 @@ So, it’s always better to have smaller projects and smaller teams for the team
 Micro-Frontends are not the framework or library. This is the methodology where we can divide our fat apps into smaller and maintainable apps and design some kind of orchestration to place these apps in the browser window so that end-users see as a single app
 
 ## Concepts
-- Host : This is the project that displays the remote(s). You want to consider the host as the shell for the application responsible for coordinating the remote(s)
-- Remote : This is part of the application, not the entire application, that will be displayed by the host. In theory, this can be framework agnostic. In this article we will be using Angular only. A Micro FrontEnd project will contain only one host, but multiple remotes.
-- Monorepository : Applications will live in a monorepository — that means they are all in the same workspace/repository.
-- Micro FrontEnd Framework : This is the framework that sits between the host and remote(s) to coordinate loading and unloading of remotes. In our case this is Webpack 5 Module Federation.
+- *Host* : This is the project that displays the remote(s). You want to consider the host as the shell for the application responsible for coordinating the remote(s)
+- *Remote* : This is part of the application, not the entire application, that will be displayed by the host. In theory, this can be framework agnostic. In this article we will be using Angular only. A Micro FrontEnd project will contain only one host, but multiple remotes.
+- *Monorepositor*y : Applications will live in a monorepository — that means they are all in the same workspace/repository.
+- *Micro FrontEnd Framework* : This is the framework that sits between the host and remote(s) to coordinate loading and unloading of remotes. In our case this is Webpack 5 Module Federation.
 
 ## Project
 ### Info
